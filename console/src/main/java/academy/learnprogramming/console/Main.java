@@ -21,8 +21,6 @@ public class Main {
         // create context (container)
         ApplicationContext context
                 = new AnnotationConfigApplicationContext(AppConfig.class);
-        NumberGenerator numberGenerator = context.getBean(NumberGeneratorImpl.class);
-
 
 
     }
